@@ -4,7 +4,7 @@ import { GlobalStyled } from "./GlobalStyled"
 
 const Theme = {
   colors: {
-    body: "#0000ff"
+    body: "#ffffff"
   }
 }
 
