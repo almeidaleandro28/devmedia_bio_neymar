@@ -1,32 +1,44 @@
 import styled from "styled-components";
 import neymar from "../../assets/neymar.jpg";
+import Menu from "./Menu";
+import { Container } from "./Container_styled";
 
-const Title = styled.h1`
-  color: red;
+const Hero = styled.header`
+  
 `
 
-const ContainerPhoto = styled.div`
-  width: 100px;
-  height: 100px;
-  background-color: #0000ff;
-  border: 1px solid #000000;
-  border-radius: 50%;
+const Title = styled.h1`
+  color: ;
+`
+const ContainerHero = styled.div`
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
 `
 
 const ImgPhoto = styled.img`
   height: 100%;
-  width: 100%;
+  width: 50px;
   border-radius: 50%;
   object-fit: cover;
 `
 
+
 function Header() {
   return (
     <>
-      <ContainerPhoto>
-        <ImgPhoto src={neymar} alt="brazilian national team football player neymar"/>
-      </ContainerPhoto>
-      <Title>Neymar Jr</Title>
+      <Hero>
+        <Container>
+          <ContainerHero>
+            <ImgPhoto src={neymar}></ImgPhoto>
+            <Title>neymar.jr</Title>
+            <Menu />
+          </ContainerHero>
+        </Container>
+      </Hero>
    </>
   );
 }
