@@ -8,7 +8,10 @@ const Hero = styled.header`
 `
 
 const Title = styled.h1`
-  color: ;
+  font-size: large;
+  color: ${ ( { theme } ) => theme.colors.text };
+  font-weight: 700;
+  padding: 15px 0px;
 `
 const ContainerHero = styled.div`
   width: 50%;
