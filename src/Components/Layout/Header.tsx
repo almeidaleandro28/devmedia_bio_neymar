@@ -3,8 +3,9 @@ import neymar from "../../assets/neymar.jpg";
 import Menu from "./Menu";
 import { Container } from "./Container_styled";
 
+
 const Hero = styled.header`
-  
+  background-color: ${ ( { theme } ) => theme.colors.header};
 `
 
 const Title = styled.h1`

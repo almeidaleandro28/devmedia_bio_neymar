@@ -27,7 +27,7 @@ export const GlobalStyled = createGlobalStyle`
   }
   body {
     line-height: 1;
-    background-color: ${ ( { theme} ) => theme.colors.body };
+    background-color: ${ ( { theme } ) => theme.colors.body };
     
   }
   ol, ul {
