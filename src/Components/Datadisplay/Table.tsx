@@ -28,7 +28,10 @@ const TdStyled = styled.td`
  
 `
 const TrStyled = styled.tr`
-
+  color:  ${ ( { theme } ) => theme.colors.black };
+  &lasty-of-type(even){
+    color: red ;
+  }
  
 `
 const ThStyled = styled.th`

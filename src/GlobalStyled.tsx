@@ -52,9 +52,6 @@ export const GlobalStyled = createGlobalStyle`
     padding: 0;
   }
 
-  body {
-    height: 110vh;
-  }
 
   
 `

@@ -5,6 +5,9 @@ import bgImg from "../../assets/imagem-de-fundo.jpg";
 
 const FooterStyled = styled.footer`
   background-image: url(${bgImg});
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: contain;
 `
 const ContainerFooter = styled.div`
   display: flex;

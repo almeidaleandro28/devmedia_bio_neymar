@@ -9,6 +9,7 @@ const theme = {
     body: "#ffffff",
     text: "#ffffff",
     header: "#0eb91c",
+    black: "#000"
   }
 }
 
